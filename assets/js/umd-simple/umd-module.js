@@ -4,7 +4,7 @@
         module.exports = factory();
     } else if (typeof define === 'function' && define.amd) {
         console.log('是AMD模块规范，如require.js')
-        define(factory)
+        define(factory())
     } else if (typeof define === 'function' && define.cmd) {
         console.log('是CMD模块规范，如sea.js')
         define(function(require, exports, module) {
