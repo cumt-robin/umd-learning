@@ -18,12 +18,15 @@
     }
 }(this, function(depModule) {
     console.log('我调用了依赖模块', depModule)
-    if (document.querySelector('#content2')) {
-        document.querySelector('#content2').innerText = '我调用了依赖模块：' + depModule.name
-    } else {
-        window.addEventListener('load', function() {
+    if (document) {
+        // 判断一下，因为nodejs没有dom的
+        if (document.querySelector('#content2')) {
             document.querySelector('#content2').innerText = '我调用了依赖模块：' + depModule.name
-        })
+        } else {
+            window.addEventListener('load', function() {
+                document.querySelector('#content2').innerText = '我调用了依赖模块：' + depModule.name
+            })
+        }
     }
     return {
         name: '我自己是一个umd模块'
