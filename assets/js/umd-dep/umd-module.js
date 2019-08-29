@@ -18,7 +18,7 @@
     }
 }(this, function(depModule) {
     console.log('我调用了依赖模块', depModule)
-    if (document) {
+    if (typeof window !== 'undefined') {
         // 判断一下，因为nodejs没有dom的
         if (document.querySelector('#content2')) {
             document.querySelector('#content2').innerText = '我调用了依赖模块：' + depModule.name
