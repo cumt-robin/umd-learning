@@ -2,7 +2,7 @@
 
 ## 介绍
 
-这个仓库记录了一些关于`javascript UMD`模块规范的`demo`，对我学习`UMD`规范有了很大帮助，希望也能帮助到你。
+这个[仓库](https://github.com/cumt-robin/umd-learning)记录了一些关于`javascript UMD`模块规范的`demo`，对我学习`UMD`规范有了很大帮助，希望也能帮助到你。
 
 ## 回顾
 
