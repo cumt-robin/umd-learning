@@ -10,7 +10,7 @@
 
 - [回头再看JS模块化编程](http://hexo.wbjiang.cn/%E5%9B%9E%E5%A4%B4%E5%86%8D%E7%9C%8BJS%E6%A8%A1%E5%9D%97%E5%8C%96%E7%BC%96%E7%A8%8B.html)
 - [回头再看JS模块化编程之AMD](http://hexo.wbjiang.cn/%E5%9B%9E%E5%A4%B4%E5%86%8D%E7%9C%8BJS%E6%A8%A1%E5%9D%97%E5%8C%96%E7%BC%96%E7%A8%8B%E4%B9%8BAMD.html)
-- [sea.js的同步魔法](http://hexo.wbjiang.cn/sea-js%E7%9A%84%E5%90%8C%E6%AD%A5%E9%AD%94%E6%B3%95.html)
+- [sea.js的同步魔法](http://hexo.wbjiang.cn/sea.js%E7%9A%84%E5%90%8C%E6%AD%A5%E9%AD%94%E6%B3%95.html)
 
 近几天准备总结一下`javascript`模块的知识点，所以建了这个[Git仓库](https://github.com/cumt-robin/umd-learning)，如果能帮助到您，麻烦点个`star`哦，非常感谢！
 
